@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<title>Пицца</title>
+    </head>
+
+<body>
+<h1 align="center">ДОСТАВКА ПИЦЦЫ "ЭКСПРЕСС"</h1>
+<img src="foto.jpg" alt="пицца">
+
+<h3>Решили заказать доставку еды на дом и в офис? ДОСТАВКА ПИЦЦЫ "ЭКСПРЕСС" — это то, что вам нужно. Мы привозим вкусную еду в любой район .</br></br>
+Оформить заявку можно ниже, удобным для вас способом</br></h3>
+
+<form action="script.php" enctype="multipart/form-data">
+   <h3>1</h3>Введите количетво <input type="text" name="textField" required="required">  выберите пиццу:
+  
+    <select name="list">
+        <option value=""></option>
+        <option value="element1"> 4 сыра</option>
+        <option value="element2">маргарита</option>
+        <option value="element3">тоскана</option>
+	<option value="element4">карбонара</option>
+	<option value="element5">пицца-бургер</option>
+	<option value="element6">пицца-драник</option>
+    </select>
+    <br>
+ <button type="submit" formmethod="GET">Оформить заказ</button>
+ <br><br>
+   <h3>2</h3> При отправке формы заказа, Вы можете прикрепить ваше фото для участия в акции "БЕСПЛАТНАЯ ПИЦЦА ЗА ЛУЧШЕЕ ФОТО"</br>
+    <input type="file" name="userFile"></br></br>
+Скорее нажмите кнопку"оформить заказ" <br>
+        <button type="submit" formmethod="POST">Оформить заказ</button></br>
+       </form>
+
+<h1 align="center">Работаем круглосуточно!</h1>
+
+</body>
+</html>
